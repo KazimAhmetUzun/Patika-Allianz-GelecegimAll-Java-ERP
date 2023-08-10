@@ -39,8 +39,7 @@ public class BillServiceImpl implements BillService {
 
         // Müşteri siparişinin bilgilerini al
         Long customerId = customerOrder.getCustomerId();
-        // İsterseniz müşteri bilgilerini de çekebilirsiniz, bu örnekte müşteri ile ilgili bir bilgiye ihtiyaç yok.
-
+        
         // Siparişteki ürünleri al ve toplam fiyatı ve KDV hesaplamasını yap
         double totalAmount = 0;
         double totalKdv = 0;
